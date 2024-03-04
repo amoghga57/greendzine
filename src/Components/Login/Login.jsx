@@ -10,7 +10,7 @@ const [Password, setPassword] = useState("")
 let navi=useNavigate()
 
 
-let email="ag"
+let email="greendzine@gmail.com"
 let pass="123"
 
 let confirm=()=>{

@@ -6,9 +6,9 @@ import User from "./Components/User/User"
 import Navigation from './Components/Navigation/Navigation'
 
 const App = () => {
-  let flag=false
+  // let flag=false
 
-  const [isLogin, setisLogin] = useState(flag)
+  const [isLogin, setisLogin] = useState(false)
   let valid=()=>{
     setisLogin(true)
   }
