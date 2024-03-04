@@ -56,9 +56,9 @@ const User = () => {
         {filteredData.map((x) => {
           return (
             <div id="boxs">
-              <div>EMP ID : <span id='idno'> &nbsp; {x.id}</span></div>
+              <div>EMP ID &nbsp; : <span id='idno'> &nbsp; {x.id}</span></div>
               <div>Name &nbsp; &nbsp; : <span id='idno' > &nbsp; {x.name}</span></div>
-              <div>DOB &nbsp; &nbsp; &nbsp;: <span id='dobd'> &nbsp; {x.dob}</span></div>
+              <div>DOB &nbsp; &nbsp; &nbsp; : <span id='dobd'> &nbsp; {x.dob}</span></div>
               <div>Role &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : <span id='role'> &nbsp;{x.role}</span></div>
             </div>
           )

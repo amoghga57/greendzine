@@ -1,12 +1,13 @@
 #outer_body {
      position: fixed;
      /* top: 93vh; */
-     top: calc(100% - 55px);
+     top: calc(100% - 60px);
      bottom: 0px;
      z-index: 100;
      background-color: #0F2323;
      border: none;
      border-radius: 20px;
+     width: 100%;
 }
 
 #nav_bar {
