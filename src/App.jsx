@@ -18,8 +18,7 @@ const App = () => {
     <div>
       <BrowserRouter basename='/greendzine' >
                <Routes>
-                
-                    < Route exact element={<Login onLogin={valid}  />} path='/' />
+                    <Route exact element={!isLogin && <Login onLogin={valid}  />} path='/' />
                     <Route element={<Home/>} path='/home' />
                     <Route element={<User/>} path='/user' />
                </Routes>
