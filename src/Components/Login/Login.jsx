@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import logo from "./Group 3.png"
 import "./login.css"
 import { useNavigate } from 'react-router-dom'
 
-const Login = ({onLogin,onReverse}) => {
+const Login = ({onLogin}) => {
 const [Email, setEmail] = useState("")
 const [Password, setPassword] = useState("")
 
 let navi=useNavigate()
-
-useEffect(() => {
-  onReverse()
-}, [onReverse])
 
 
 let email="ag"

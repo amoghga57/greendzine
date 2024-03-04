@@ -21,9 +21,9 @@ const User = () => {
 
     ]
 
-    const [Names, setNames] = useState("")
+  const [Names, setNames] = useState("")
 
-    const filteredData = data.filter(item => item.name.toLowerCase().includes(Names.toLowerCase()));
+  const filteredData = data.filter(item => item.name.toLowerCase().includes(Names.toLowerCase()));
   return (
     <div id='main'>
       <div id="fixed_boxs">

@@ -3,25 +3,18 @@
      background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
 }
 #fixed_boxs {
-     /* background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
-     mix-blend-mode: normal;
-     border-radius: 28px;
-     opacity: 1;
-     height: 100%; */
-     
-
-
-     div {
+     div{
           display: flex;
           justify-content: center;
           align-items: center;
      }
+     
 }
 
 #search_bar {
      background-color: #595959;
      padding: 15px;
-     margin: 17px 0px 27px 0px;
+     margin: 35px 0px 27px 0px;
      border: none;
      border-radius: 25px;
      input{
@@ -32,6 +25,7 @@
           border: none;
           padding-left: 30px;
           color: #FFFFFFB3;
+          
      }
      input::placeholder{
           color: #FFFFFFB3;
