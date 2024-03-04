@@ -1,0 +1,81 @@
+#main{
+     height: 100%;
+     background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+}
+#fixed_boxs {
+     /* background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+     mix-blend-mode: normal;
+     border-radius: 28px;
+     opacity: 1;
+     height: 100%; */
+     
+
+
+     div {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+}
+
+#search_bar {
+     background-color: #595959;
+     padding: 15px;
+     margin: 17px 0px 27px 0px;
+     border: none;
+     border-radius: 25px;
+     input{
+          font-size: 20px;
+          outline: none;
+          width: 70vw;
+          background-color: #595959;
+          border: none;
+          padding-left: 30px;
+          color: #FFFFFFB3;
+     }
+     input::placeholder{
+          color: #FFFFFFB3;
+     }
+     #symbol{
+          color: #FFFFFFB3;
+          font-size: 20px;
+          padding-right: 15px;
+     }
+}
+
+#info {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     z-index: 1;
+}
+
+#boxs {
+     border: 1px solid black;
+     border-radius: 10px;
+     margin: 10px;
+     background-color: #5E5E5E82;
+     width: 300px;
+}
+
+#boxs>div {
+     padding: 16px;
+     font-family: sans-serif;
+     color: #FFFFFFB3;
+
+}
+#idno{
+     color: white;
+}
+#dobd{
+     color: orange;
+}
+#role{
+     color: #36A546;
+}
+footer{
+     padding: 35px;
+     background-color: #000E09;
+     color: #000E09;
+}

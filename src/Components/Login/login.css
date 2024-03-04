@@ -1,0 +1,89 @@
+#loginMain{
+     background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
+     mix-blend-mode: normal;
+     opacity: 1;
+     height: 100vh;
+}
+
+/* full screen */
+#login-box {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     height: 100vh;
+
+}
+
+/* logo */
+#logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+     margin: 145px 0px 17px 0px;
+
+     p {
+          text-align: center;
+          font: normal normal normal 16px/21px Mulish;
+          letter-spacing: 0.02px;
+          color: #36A546CC;
+          opacity: 1;
+     }
+}
+
+/* form */
+#form {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+     /* login inputs */
+     input {
+          background: #1F191966 0% 0% no-repeat padding-box;
+          box-shadow: inset 0px 3px 3px #FFFDFD40, 3px 3px 3px #4A494947;
+          mix-blend-mode: normal;
+          opacity: 1;
+          width: 218px;
+          height: 42px;
+          padding-left: 20px;
+          border-radius: 20px;
+          color: white;
+          margin: 12.5px 0px 12.5px 0px;
+     }
+
+     /* login button */
+     button {
+          /* login text */
+          width: 238px;
+          height: 42px;
+          text-align: center;
+          font: normal normal bold 16px/0px Mulish;
+          letter-spacing: 0.02px;
+          color: #FFFFFF8C;
+          /* login button */
+          border-radius: 20px;
+          background: transparent linear-gradient(180deg, #00FF2580 0%, #000000 100%, #36A54680 100%) 0% 0% no-repeat padding-box;
+          mix-blend-mode: normal;
+          border: 2px solid #8CFF0026;
+          opacity: 1;
+          margin: 47px 0px 26px 0px;
+          font-family: sans-serif;
+     }
+
+     p {
+          text-align: center;
+          font: normal normal normal 15px/20px Mulish;
+          letter-spacing: 0.02px;
+          color: #36A546;
+          opacity: 1;
+          font-family: sans-serif;
+     }
+     label{
+          color: red;
+          display: none;
+          margin-top: 20px;
+     }
+}

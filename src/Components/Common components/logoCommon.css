@@ -1,0 +1,35 @@
+#call-logo {
+     img {
+          position: absolute;
+          right: 30px;
+          top: 29px;
+     }
+}
+
+#moptro-logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+     position: relative;
+
+     img {
+          margin: 56px 0px 41px 0px;
+     }
+
+     #number {
+          position: absolute;
+          left: 60px;
+          top: 40px;
+          padding: 15px;
+          border-radius: 100%;
+          text-align: left;
+          font: normal normal normal 18px/9px Source Sans Pro;
+          letter-spacing: 0.02px;
+          color: #36A546;
+          opacity: 1;
+          background: #5E5E5EB5 0% 0% no-repeat padding-box;
+          box-shadow: inset 0px 4px 0px #00000040;
+          border: 1px solid #FFFEFE00;
+     }
+}

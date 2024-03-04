@@ -1,0 +1,56 @@
+#outer_body {
+     position: fixed;
+     top: 93vh;
+     z-index: 1;
+     background-color: #000E09;
+     border: none;
+     border-radius: 20px;
+}
+
+#nav_bar {
+     display: -webkit-flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100vw;
+     border: none;
+}
+
+#nav_bar>div :hover {
+     background-color: #38383880;
+     border-radius: 20px;
+     #home {
+          background-color: #38383880;
+     }
+}
+
+button {
+     border: none;
+     padding: 18px 20vw 18px 20vw;
+     background-color: #000E09;
+}
+
+button:hover {
+     background-color: #38383880;
+}
+
+#nav_bar>div {
+     border: none;
+}
+
+a {
+     text-decoration: none;
+     border: none;
+     background-color: #000E09;
+}
+
+#home {
+     background-color: #000E09;
+     color: #36A546CC;
+     font-size: 25px;
+     border: none;
+     text-decoration: none;
+}
+
+#home:hover {
+     background-color: #38383880;
+}
