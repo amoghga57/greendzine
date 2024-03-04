@@ -3,6 +3,7 @@ import LogoCommon from '../Common components/LogoCommon'
 import "./user.css"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import Navigation from '../Navigation/Navigation'
 
 const User = () => {
 
@@ -51,6 +52,7 @@ const User = () => {
       <div>
         <footer></footer>
       </div>
+      <Navigation/>
     </div>
   )
 }

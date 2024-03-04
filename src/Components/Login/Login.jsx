@@ -3,7 +3,7 @@ import logo from "./Group 3.png"
 import "./login.css"
 import { useNavigate } from 'react-router-dom'
 
-const Login = ({onLogin}) => {
+const Login = () => {
 const [Email, setEmail] = useState("")
 const [Password, setPassword] = useState("")
 
@@ -15,7 +15,7 @@ let pass="123"
 
 let confirm=()=>{
   if(Email===email && Password===pass){
-    onLogin()
+    
     navi('/home')
   }else{
     window.alert("Invalid Cerdential")

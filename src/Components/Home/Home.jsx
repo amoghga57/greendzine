@@ -1,6 +1,7 @@
 import React from 'react'
 import LogoCommon from '../Common components/LogoCommon'
 import "./home.css"
+import Navigation from '../Navigation/Navigation'
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Navigation/>
     </div>
   )
 }
