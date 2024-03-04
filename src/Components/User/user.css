@@ -1,13 +1,13 @@
 #main{
      height: 100%;
+     width: 100vw;
      background: transparent linear-gradient(180deg, #000000 0%, #000E09 100%) 0% 0% no-repeat padding-box;
 }
 #fixed_boxs {
      div{
           display: flex;
           justify-content: center;
-          align-items: center;
-          
+          align-items: center;  
      }
 }
 
@@ -43,6 +43,14 @@
      align-items: center;
      flex-wrap: wrap;
      z-index: 1;
+}
+#notFound{
+     color: red;
+     font-size: 30px;
+     display: none;
+     div{
+          text-align: center;
+     }
 }
 
 #boxs {
