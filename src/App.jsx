@@ -18,9 +18,9 @@ const App = () => {
 
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename='/greendzine' >
                <Routes>
-                    <Route element={<Login onLogin={valid} onReverse={notValid} />} path='/' />
+                    <Route exact element={<Login onLogin={valid} onReverse={notValid} />} path='/greendzine' />
                     <Route element={<Home/>} path='/home' />
                     <Route element={<User/>} path='/user' />
                </Routes>
